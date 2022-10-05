@@ -4,7 +4,7 @@ import { StyleSheet, View, Text } from 'react-native'
 export const Graph: FC = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Relatório</Text>
+      <Text style={styles.title}>Componente novo</Text>
       <View style={styles.separator} />
     </View>
   )
