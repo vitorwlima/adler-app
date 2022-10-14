@@ -1,10 +1,13 @@
 import { FC } from 'react'
 import { StyleSheet, View, Text } from 'react-native'
+import EmojiSelector from './../slices/emojiSelector'
+
 
 export const Diary: FC = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Diário</Text>
+      <EmojiSelector/>
       <View style={styles.separator} />
     </View>
   )
