@@ -1,6 +1,6 @@
 import { FC } from 'react'
 import { StyleSheet, View, Text } from 'react-native'
-import EmojiSelector from './../slices/emojiSelector'
+import EmojiSelector from '../slices/emojiSelector'
 
 
 export const Diary: FC = () => {
